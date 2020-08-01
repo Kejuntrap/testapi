@@ -12,7 +12,7 @@ def hello():
 
 @app.route('/favicon.ico')
 def favicon():
-    return app.send_static_file("favicon.ico")
+    return app.send_static_file("/favicon.ico")
 
 
 ## おまじない
